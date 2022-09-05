@@ -3,7 +3,7 @@ import { pipe } from 'fp-ts/lib/function';
 
 const result = pipe(
   O.fromNullable(null),
-  O.getOrElse(() => 'dupa')
+  O.getOrElse(() => 'test')
 );
 
 console.log(result);
