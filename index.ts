@@ -1,4 +1,9 @@
-// run `node index.ts` in the terminal
+import * as O from 'fp-ts/lib/Option';
+import { pipe } from 'fp-ts/lib/function';
 
-console.log(`Hello Node.js v${process.versions.node}!`);
-console.log('test 2');
+const result = pipe(
+  O.fromNullable(null),
+  O.getOrElse(() => 'dupa')
+);
+
+console.log(result);
