@@ -4,6 +4,12 @@ import * as T from 'fp-ts/lib/Task';
 import * as TE from 'fp-ts/lib/TaskEither';
 import { pipe } from 'fp-ts/lib/function';
 
+/**
+ * ------------
+ * Episode 3: Task monad
+ * ------------
+ */
+
 const result = pipe(
   O.fromNullable(null),
   O.getOrElse(() => 'test_3')

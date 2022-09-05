@@ -6,9 +6,11 @@
     "start:1": "ts-node src/part-1.ts",
     "start:2": "ts-node src/part-2.ts",
     "start:3": "ts-node src/part-3.ts",
+    "start:4": "ts-node src/part-4.ts",
     "start:1:watch": "tsnd --respawn src/part-1.ts",
     "start:2:watch": "tsnd --respawn src/part-2.ts",
-    "start:3:watch": "tsnd --respawn src/part-3.ts"
+    "start:3:watch": "tsnd --respawn src/part-3.ts",
+    "start:4:watch": "tsnd --respawn src/part-4.ts"
   },
   "dependencies": {
     "fp-ts": "2.11.9",
