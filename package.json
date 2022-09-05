@@ -2,6 +2,7 @@
   "name": "node-fp-stackblits",
   "version": "0.0.1",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "start:1": "ts-node src/part-1.ts",
     "start:2": "ts-node src/part-2.ts",
     "start:3": "ts-node src/part-3.ts",
