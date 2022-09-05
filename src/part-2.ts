@@ -6,7 +6,7 @@ import { pipe } from 'fp-ts/lib/function';
 
 const result = pipe(
   O.fromNullable(null),
-  O.getOrElse(() => 'test'),
+  O.getOrElse(() => 'test_2')
 );
 
 console.log(result);
